@@ -1,0 +1,22 @@
+#struct1{
+	margin: 20px auto;
+	width: 80%;
+	border: 1px solid #c8c8c8;
+	border-collapse: collapse;
+	background-color: #f9f9f9;
+}
+
+#struct1 td{
+	border: 1px solid #c8c8c8;
+	border-collapse: collapse;
+}
+
+#struct1 td div{
+	margin: 20px auto;
+	width: 80%;
+	border: 1px solid #009966;
+	background-color: #deffdd;
+	border-radius: 8px;
+	height: 150px;
+}
+

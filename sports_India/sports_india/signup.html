@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/signup.css">
+  <title>SignUp Page</title>
+</head>
+<body>
+    <form class="form" action="signup.do" method="post">
+      <h1>Sign Up</h1>
+      <div class="form-group">
+        <input type="text" placeholder=" " id="stname" name='stname' required>
+        <label for="name">Name</label>
+        <div class="error">
+          <i class="fas fa-exclamation-circle"></i>
+          Error encountered!
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder=" " id="stemail" name='email' required>
+        <label for="email">Email</label>
+        <div class="error">
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder=" " id="stpass" name='stpass' required>
+        <label for="password">Password</label>
+        <div class="error">
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <input type="password" placeholder=" " id="degree" name='degree' required>
+        <label for="password">Degree&nbsp;/&nbsp;Highest Qualification</label>
+        <div class="error">
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <input type="password" placeholder=" " id="branch" name='branch' required>
+        <label for="password">Age</label>
+        <div class="error">
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="password" placeholder=" " id="semester" name='semester' required>
+        <label for="password">Sports Name</label>
+        <div class="error">
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+      </div>
+      
+      
+      <input type="submit" value="Sign Up">
+      
+    </form>
+</body>
+</html>

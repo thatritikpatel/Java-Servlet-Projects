@@ -1,0 +1,48 @@
+#main_body{
+	/* border: 1px solid red; */
+}
+
+#prof_box{
+	/* border: 1px solid green; */
+	width: 90%;
+	height: 450px;
+	margin: 0px auto;
+}
+
+#prof_box td{
+	/* border: 1px solid green; */
+	width: 50%;
+}
+
+#lft_box{
+	border-right: 1px solid #e5e5e5;
+	text-align: center;
+	padding-right: 20px;
+}
+
+#userpic{
+	border: 1px solid #bdbdbd;
+	border-radius: 190px;
+	height: 250px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+#prof_rec{
+	width: 90%;
+	height: 90%;
+}
+
+th{
+	font-size: 20px;
+	color: #606060;
+	text-align: right;
+	padding-right: 10px;
+}
+
+input{
+	font-size: 20px;
+	padding: 5px 8px;
+	border: 1px solid #cfcfcf;
+	border-radius: 5px;
+}

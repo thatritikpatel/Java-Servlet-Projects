@@ -1,0 +1,28 @@
+ul{
+	list-style-type: none;
+	border: 1px solid #e3e3e3;
+	height: 30px;
+	padding-top: 8px;
+}
+
+li{
+	border: 1px solid #e3e3e3;
+	display: inline;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 12px;
+	margin-left: 12px;
+	color: #515151;
+	cursor: pointer;
+}
+
+
+.ulselect{
+	background-color: #515151;
+	color: white;
+}
+
+.ulunselect{
+	background-color: white;
+	color: #515151;
+}

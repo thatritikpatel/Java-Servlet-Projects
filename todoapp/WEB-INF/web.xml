@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+  <servlet>
+	<servlet-name>todoapp0001</servlet-name>
+	<servlet-class>controllers.ShowSignupServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0001</servlet-name>
+	<url-pattern>/showsignup.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0002</servlet-name>
+	<servlet-class>controllers.ShowSigninServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0002</servlet-name>
+	<url-pattern>/showsignin.do</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+	<servlet-name>todoapp0003</servlet-name>
+	<servlet-class>controllers.SignupServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0003</servlet-name>
+	<url-pattern>/signup.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0004</servlet-name>
+	<servlet-class>controllers.SendOTPServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0004</servlet-name>
+	<url-pattern>/sendotp.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0005</servlet-name>
+	<servlet-class>controllers.CheckOTPServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0005</servlet-name>
+	<url-pattern>/checkotp.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0006</servlet-name>
+	<servlet-class>controllers.SigninServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0006</servlet-name>
+	<url-pattern>/signin.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0007</servlet-name>
+	<servlet-class>controllers.AccountActivationServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0007</servlet-name>
+	<url-pattern>/activate_account.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>todoapp0008</servlet-name>
+	<servlet-class>controllers.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0008</servlet-name>
+	<url-pattern>/logout.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0009</servlet-name>
+	<servlet-class>controllers.DashboardServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0009</servlet-name>
+	<url-pattern>/dashborad.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0010</servlet-name>
+	<servlet-class>controllers.MyToDosServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0010</servlet-name>
+	<url-pattern>/mytodos.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0011</servlet-name>
+	<servlet-class>controllers.ConnectsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0011</servlet-name>
+	<url-pattern>/connects.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0012</servlet-name>
+	<servlet-class>controllers.SaveTextNoteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0012</servlet-name>
+	<url-pattern>/save_textnote.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0013</servlet-name>
+	<servlet-class>controllers.AllToDosServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0013</servlet-name>
+	<url-pattern>/alltodos.do</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+	<servlet-name>todoapp0014</servlet-name>
+	<servlet-class>controllers.SaveToDoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0014</servlet-name>
+	<url-pattern>/save_itemedlist.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0015</servlet-name>
+	<servlet-class>controllers.GetToDoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0015</servlet-name>
+	<url-pattern>/gettodo.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0016</servlet-name>
+	<servlet-class>controllers.AllToDoStepsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0016</servlet-name>
+	<url-pattern>/allsteps.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0017</servlet-name>
+	<servlet-class>controllers.SaveStepDoneServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0017</servlet-name>
+	<url-pattern>/savestepdone.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0018</servlet-name>
+	<servlet-class>controllers.SaveStepActiveServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0018</servlet-name>
+	<url-pattern>/savestepactive.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>todoapp0019</servlet-name>
+	<servlet-class>controllers.ShowProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0019</servlet-name>
+	<url-pattern>/profile.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>todoapp0020</servlet-name>
+	<servlet-class>controllers.UploadProfilePicServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0020</servlet-name>
+	<url-pattern>/uploadpic.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0021</servlet-name>
+	<servlet-class>controllers.ShowProfilePicServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0021</servlet-name>
+	<url-pattern>/showpic.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0022</servlet-name>
+	<servlet-class>controllers.AllConnectionsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0022</servlet-name>
+	<url-pattern>/allconnections.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0023</servlet-name>
+	<servlet-class>controllers.OtherUserPicServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0023</servlet-name>
+	<url-pattern>/otheruserpic.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0024</servlet-name>
+	<servlet-class>controllers.DelConnectionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0024</servlet-name>
+	<url-pattern>/delconnection.do</url-pattern>
+  </servlet-mapping> 
+
+
+
+  <servlet>
+	<servlet-name>todoapp0025</servlet-name>
+	<servlet-class>controllers.SearchUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0025</servlet-name>
+	<url-pattern>/search.do</url-pattern>
+  </servlet-mapping> 
+
+
+
+  <servlet>
+	<servlet-name>todoapp0026</servlet-name>
+	<servlet-class>controllers.UserInfoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0026</servlet-name>
+	<url-pattern>/userinfo.do</url-pattern>
+  </servlet-mapping> 
+
+
+
+  <servlet>
+	<servlet-name>todoapp0027</servlet-name>
+	<servlet-class>controllers.NoConnectUserInfoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0027</servlet-name>
+	<url-pattern>/userinfoifnoconnect.do</url-pattern>
+  </servlet-mapping>
+  
+
+
+  <servlet>
+	<servlet-name>todoapp0028</servlet-name>
+	<servlet-class>controllers.InviteUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0028</servlet-name>
+	<url-pattern>/inviteuser.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0029</servlet-name>
+	<servlet-class>controllers.CancelInviteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0029</servlet-name>
+	<url-pattern>/cancelinvite.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0030</servlet-name>
+	<servlet-class>controllers.NewInvitesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0030</servlet-name>
+	<url-pattern>/newinvites.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0031</servlet-name>
+	<servlet-class>controllers.InvitationActionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0031</servlet-name>
+	<url-pattern>/invitationaction.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0032</servlet-name>
+	<servlet-class>controllers.ShareToDoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0032</servlet-name>
+	<url-pattern>/sharetodo.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0033</servlet-name>
+	<servlet-class>controllers.SharedWithMeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0033</servlet-name>
+	<url-pattern>/shreadwithme.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0034</servlet-name>
+	<servlet-class>controllers.DeleteToDoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0034</servlet-name>
+	<url-pattern>/deletetodo.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0035</servlet-name>
+	<servlet-class>controllers.RecentToDosServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0035</servlet-name>
+	<url-pattern>/actvrecenttodos.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0036</servlet-name>
+	<servlet-class>controllers.ActiveSharedToDosServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0036</servlet-name>
+	<url-pattern>/actvsharedtodos.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>todoapp0037</servlet-name>
+	<servlet-class>controllers.ActiveInvitesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>todoapp0037</servlet-name>
+	<url-pattern>/activeinvites.do</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ###############################################################  -->
+
+  <listener>
+	<listener-class>listeners.AppListener</listener-class>
+  </listener>
+
+</web-app>
+
+

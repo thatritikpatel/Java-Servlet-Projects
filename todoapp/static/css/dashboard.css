@@ -1,0 +1,76 @@
+#dashboard_box{
+	/* border: 1px solid #b7b7b7; */
+	width: 90%;
+	margin: 15px auto;
+	height: 470px;
+}
+
+.act_recs{
+	width: 33%;
+	/* border: 1px solid #b7b7b7; */
+	vertical-align: top;
+	border-bottom: 1px solid #f94057;
+}
+
+._ttl{
+	background-color: #f94057;
+	color: #fff;
+	font-size: 24px;
+	padding: 8px 0;
+	text-align: center;	
+}
+
+#act_todos_ttl{
+	border-top-left-radius: 15px;
+}
+
+#act_invites_ttl{
+	border-top-right-radius: 15px;
+}
+
+#act_todos{
+	border-right: 1px solid #f94057;
+	border-left: 1px solid #f94057;
+	border-top-left-radius: 15px;
+}
+
+#act_invites{
+	border-left: 1px solid #f94057;
+	border-right: 1px solid #f94057;
+	border-top-right-radius: 15px;
+}
+
+.mytodorec_{
+	border: 1px solid #0bac2f;
+	border-radius: 8px;
+	padding: 12px;
+	background-color: #f7fff8;
+	margin: 20px auto;
+	width: 90%;
+	overflow: auto;
+	cursor: pointer;
+}
+
+.img_{
+	height: 75px;
+	float: left;
+	margin-right: 20px;	
+}
+
+.ttl_{
+	font-weight: bold;
+	color: #0bac2f;
+	font-size: 18px; 
+	margin-bottom: 5px;
+}
+
+.crt_{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-bottom: 5px;
+}
+
+.aut_{
+	font-size: 12px;
+	color: #1701e2;
+}

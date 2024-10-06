@@ -1,0 +1,84 @@
+body{
+	margin: 0px auto; 
+	font-family: verdana;
+}
+
+
+#container{
+	/* border: 1px solid red; */
+	width: 100%;
+}
+
+#header{
+	border-bottom: 1px solid #c2fbb7;
+	height: 80px;
+	position: relative;
+	background-color: #f9fff9;
+}
+
+#welc{
+	position: absolute;
+	top: 3px;
+	left: 50%; 
+	font-weight: bold;
+	color: #0311b8;
+}
+
+#logo{
+	position: absolute;
+	top: 7px;
+	left: 70px;
+}
+
+#logo_text{
+	position: absolute;
+	top: 25px;
+	left: 140px;
+	font-size: 24px;
+	color: #c83415;
+	font-weight: bold;
+}
+
+#prof_ico{
+	height: 30px;
+	position: absolute;
+	top: 3px;
+	right: 120px;
+	cursor: pointer;
+}
+
+#main_body{
+	/* height: 300px;
+	border: 1px solid green; */
+}
+
+#footer{
+	height: 30px;
+	border-top: 1px solid #c2fbb7;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: #f9fff9;
+	color: #c83415;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8%;
+	padding-top: 9px;
+}
+
+#control1{
+	position: absolute;
+	right: 65px;
+	top: 0px;
+}
+
+#control1 a{
+	text-decoration: none;
+	color: #0c8609;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 4px 12px;
+	border: 1px solid #0c8609;
+	border-radius: 5px;
+	cursor: pointer;
+}
